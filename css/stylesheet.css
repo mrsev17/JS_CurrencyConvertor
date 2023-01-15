@@ -96,8 +96,8 @@ table {
 #currency-two-value,
 #currency-select-one,
 #currency-one-value {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     outline: none;
     border: 2px solid black;
     border-radius: 10px;
@@ -108,7 +108,7 @@ table {
 #currency-select-two,
 #currency-select-one {
     height: 40px;
-    width: 200px;
+    width: 260px;
 }
 #currency-two-value,
 #currency-one-value {
@@ -138,6 +138,18 @@ table {
         flex-direction: column;
     }
     .border-wrapper {
-        width: 100%;
+        width: 80%;
+    }
+    .currency-convertor__input-one-value,
+    .currency-convertor__input-two-value {
+        display: flex;
+        max-width: none;
+        margin: 0 auto;
+        
+    }
+    #currency-two-value,
+    #currency-one-value {
+        max-width: 196px;
+        padding: 0 45px;
     }
 }
