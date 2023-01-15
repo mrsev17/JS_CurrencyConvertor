@@ -152,4 +152,9 @@ table {
         max-width: 196px;
         padding: 0 45px;
     }
+    #currency-select-two,
+    #currency-select-one {
+    height: 40px;
+    max-width: 298px;
+}
 }

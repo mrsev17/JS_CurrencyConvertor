@@ -66,7 +66,7 @@ const calculate = (resultOfChooseCurrencyOne, ) => {
 
 let valueOfFirstInput = currencySelectOne.options[currencySelectOne.selectedIndex].value;
 
-currencySelectOne.addEventListener("change", () => {
+currencySelectOne.addEventListener("input", () => {
     let rate = null;
     let resultOfChooseCurrencyOne = event.target.value;
 
@@ -99,7 +99,7 @@ currencySelectOne.addEventListener("change", () => {
     
 })
 
-currencyValueOne.addEventListener("change", () => {
+currencyValueOne.addEventListener("input", () => {
 
     if(currencySelectOne.value === "Choose currency") {
         valueOfQuantity = currencyValueOne.value;
